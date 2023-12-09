@@ -4,7 +4,7 @@ import unittest,sqlite3
 import json,os
 from jwks3 import app, DATABASE_FILE
 
-class TestYourFlaskApp(unittest.TestCase):
+class UnitTest(unittest.TestCase):
 
 
     def setUp(self):
